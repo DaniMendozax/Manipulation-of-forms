@@ -16,7 +16,6 @@ const UpdateForm = () => {
     }, []);
 
     const fetchForms = () => {
-        // Fetch the forms data from the API endpoint
         fetch('http://127.0.0.1:8000/apiFormularios/forms/')
             .then((response) => response.json())
             .then((data) => {

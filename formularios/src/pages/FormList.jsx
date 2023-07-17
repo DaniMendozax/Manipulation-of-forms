@@ -11,7 +11,6 @@ const FormList = () => {
       .then((response) => response.json())
       .then((data) => {
         setForms(data);
-        // Inicializar el estado para mostrar detalles de todos los formularios como falso
         const initialShowDetails = {};
         data.forEach((form) => {
           initialShowDetails[form.id] = false;
@@ -23,7 +22,6 @@ const FormList = () => {
 
   const handleFormSubmit = async (formId, respuesta1, respuesta2) => {
     try {
-      // Enviar las respuestas al backend utilizando la URL /apiFormularios/responses/create
       const response = await fetch('http://127.0.0.1:8000/apiFormularios/responses/create', {
         method: 'POST',
         headers: {
@@ -37,12 +35,10 @@ const FormList = () => {
       });
 
       if (response.ok) {
-        // Respuestas enviadas exitosamente, restablecer los campos de respuesta
         const initialShowDetails = { ...showDetails };
         initialShowDetails[formId] = false;
         setShowDetails(initialShowDetails);
 
-        // También puedes realizar alguna acción adicional, como mostrar un mensaje de éxito.
         alert('Respuestas enviadas exitosamente.');
       } else {
         alert('Error al enviar las respuestas.');
@@ -62,7 +58,6 @@ const FormList = () => {
           return (
             <li key={form.id}>
               <div>
-                {/* Utilizamos Link para redirigir al usuario a la página de detalles del formulario */}
                 <Link to={`/form/${form.id}`}>
                   <h2 className=''>{form.titulo}</h2>
                 </Link>

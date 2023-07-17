@@ -8,7 +8,7 @@ const FormDetails = () => {
     const [respuesta2, setRespuesta2] = useState('');
 
     useEffect(() => {
-        // Realizar una solicitud para obtener los detalles del formulario con el ID especificado
+        // Realizar una solicitud para obtener los detalles del formulario con el ID 
         fetch(`http://127.0.0.1:8000/apiFormularios/forms/${id}`)
             .then((response) => response.json())
             .then((data) => {
@@ -19,7 +19,7 @@ const FormDetails = () => {
 
     const handleFormSubmit = async () => {
         try {
-            // Enviar las respuestas al backend utilizando la URL /apiFormularios/responses/create
+            // Enviar las respuestas al backend 
             const response = await fetch('http://127.0.0.1:8000/apiFormularios/responses/create', {
                 method: 'POST',
                 headers: {
@@ -33,7 +33,7 @@ const FormDetails = () => {
             });
 
             if (response.ok) {
-                // Respuestas enviadas exitosamente, puedes realizar alguna acción adicional si lo deseas.
+                // Respuestas enviadas exitosamente
                 alert('Respuestas enviadas exitosamente.');
             } else {
                 alert('Error al enviar las respuestas.');
@@ -44,7 +44,7 @@ const FormDetails = () => {
     };
 
     if (!formData) {
-        // Si no se han cargado los datos del formulario, puedes mostrar un mensaje de carga o un spinner
+        // Si no se han cargado los datos del formulario
         return <div>Cargando...</div>;
     }
 
