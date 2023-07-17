@@ -1,4 +1,4 @@
-## Prueba Formulario   :tw-1f4cb:
+## Prueba Formulario :notebook_with_decorative_cover:
 
 En este proyecto nos enfocamos en la creacion y manipulacion de formularios.
 
@@ -8,7 +8,7 @@ En este proyecto nos enfocamos en la creacion y manipulacion de formularios.
  
  		cd Prueba_Formularios
  
-###Requerimientos para el backend:
+### Requerimientos para el backend:
 
 - 1) Es necesario tener instalado python3 en nuestro ordenador .
 - 2) Crea un entorno virtual en el directorio del proyecto (recomendado)
@@ -16,10 +16,10 @@ En este proyecto nos enfocamos en la creacion y manipulacion de formularios.
 
 - 3) cd backend 
 
-###Activa el entorno virtual (en Windows)
+### Activa el entorno virtual (en Windows)
 		venv\Scripts\activate
 
-###Activa el entorno virtual (en macOS y Linux)
+### Activa el entorno virtual (en macOS y Linux)
 		source venv/bin/activate
 
 ### Instala las dependencias desde el archivo requirements.txt
@@ -30,7 +30,7 @@ En este proyecto nos enfocamos en la creacion y manipulacion de formularios.
 - 5) Si desea observar el archivo de db.sqlite3 le recomiendo una extencion en vscode para visualizarla:
 		SQLite Viewer
 
-###Requerimientos para el frontend
+### Requerimientos para el frontend
 
 Tener instalado en nuestro ordenador node js, v16.20.0(recomendado)
 
