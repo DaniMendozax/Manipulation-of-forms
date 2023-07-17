@@ -30,7 +30,6 @@ const DeleteForm = () => {
                 setSelectedForm(null);
                 setShowFormList(false);
                 alert('Formulario eliminado exitosamente.');
-a.
                 fetchForms();
             } else {
                 console.error('Error al eliminar el formulario.');
