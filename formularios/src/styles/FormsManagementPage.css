@@ -1,0 +1,46 @@
+.title{
+    color: #71632d;
+}
+
+.nav-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  margin-top: 250px;
+}
+
+.button-container {
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  border-radius: 15%;
+}
+
+.nav-button-primary {
+  background-color: hsl(205, 97%, 15%);
+  color: #71632d;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: 0s all;
+}
+
+.nav-button-primary:hover{
+    transform: scale(1.1);
+}
+
+.nav-container h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.nav-button {
+  margin: 10px;
+  width: 250px;
+  font-size: 18px;
+}

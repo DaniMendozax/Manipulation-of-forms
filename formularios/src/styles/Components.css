@@ -1,0 +1,43 @@
+.fields{
+   color: #71632d;
+   font-size: 20px;
+   padding: 15px;
+}
+
+.select-form{
+   background-color: hsl(205, 97%, 15%);
+   color: #71632d;
+   padding: 5px;
+   border-radius: 15px;
+   font-size: 15px;
+   margin: 5px;
+}
+
+.button-finish{
+   background-color:  hsl(205, 97%, 15%);
+   color: #71632d;
+   border-radius: 15px;
+   cursor: pointer;
+   font-size: 15px;
+}
+
+.button-finish:focus{
+   outline: none !important;
+}
+
+.button-create:hover{
+   transform: scale(1.1);
+}
+
+p{
+   color: #71632d;
+}
+
+input{
+   border-radius: 8px;
+   font-size: 15px;
+}
+
+input:focus{
+   outline: none !important;
+}
