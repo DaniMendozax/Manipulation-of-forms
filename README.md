@@ -1,6 +1,7 @@
-## Prueba Formulario  :tw-1f4cb:
+## Prueba Formulario   :tw-1f4cb:
 
 En este proyecto nos enfocamos en la creacion y manipulacion de formularios.
+
  git clone https://github.com/DaniMendozax/World_Soccer_Awards.git para clonar el repositorio.
  
  Nos movemos al repositorio con: 
