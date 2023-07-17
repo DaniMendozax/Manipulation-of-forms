@@ -25,9 +25,12 @@ En este proyecto nos enfocamos en la creacion y manipulacion de formularios.
 ### Instala las dependencias desde el archivo requirements.txt
 		pip install -r requirements.txt
 
-- 4)  Ya en la carpeta backend para arrancar el proyecto usamos: 
+- 4)  Ya en la carpeta backend para arrancar el proyecto usamos:
+     
 		 python manage.py runserver
+
 - 5)  Si desea observar el archivo de db.sqlite3 le recomiendo una extencion en vscode para visualizarla:
+  
 		SQLite Viewer
 
 ### Requerimientos para el frontend
