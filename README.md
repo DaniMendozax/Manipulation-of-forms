@@ -38,11 +38,17 @@ En este proyecto nos enfocamos en la creacion y manipulacion de formularios.
 Tener instalado en nuestro ordenador node js, v16.20.0(recomendado)
 
 - 1)  Ya clonado el repositorio y estando en el pasamos a la carpeta formularios con:
+  
 		cd formularios
+
 - 2)  para instalar las dependencias  de react usamos:
-		npm install 
+ 
+		npm install
+
 - 3)  Ya instaladas las dependencias usamos:
-		npm start 
+     
+		npm start
+
 para arrancar la aplicación.
 
 El backend ya esta configurado para recibir peticiones desde otro servidor(localhost)
