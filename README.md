@@ -1,6 +1,6 @@
 ## Prueba Formulario :notebook_with_decorative_cover:
 
-En este proyecto nos enfocamos en la creacion y manipulacion de formularios.
+
 
  git clone https://github.com/DaniMendozax/World_Soccer_Awards.git para clonar el repositorio.
  
