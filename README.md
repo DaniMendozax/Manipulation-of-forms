@@ -2,7 +2,7 @@
 
 
 
- git clone https://github.com/DaniMendozax/World_Soccer_Awards.git para clonar el repositorio.
+ git clone url_del_repositorio para clonar el repositorio.
  
  Nos movemos al repositorio con: 
  
